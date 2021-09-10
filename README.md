@@ -3,7 +3,8 @@ Subdomain enumeration script from different tools amass , subfinder , chaos , gi
 
 # Usage
 `$./sub-gather.sh`
-Enter domain name: domain1.tld domain2.tld domain3.tld
+
+-Enter domain name: domain1.tld domain2.tld domain3.tld
 
 
 
