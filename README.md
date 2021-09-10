@@ -13,9 +13,9 @@ Subdomain enumeration script from different tools amass , subfinder , chaos , gi
 - Creates a new domain directory and saves the result
 
 # Installation
-   * `git clone https://github.com/kab33r/byepass.git`
-   * `cd byepass`
-   * `chmod +x byepass.sh`
+   * `git clone https://github.com/kab33r/sub-gather`
+   * `cd sub-gather`
+   * `chmod +x sub-gather.sh`
 
 # Make sure to install the tools
    * Amass https://github.com/OWASP/Amass 
