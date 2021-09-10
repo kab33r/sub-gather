@@ -32,7 +32,7 @@ subfinder -d $i --silent | httpx --silent >> ~/Projects/$i/subfinder.txt;
 assetfinder $i | httpx --silent >> ~/Projects/$i/assetfinder.txt;
 findomain -t $i -q | httpx --silent >> ~/Projects/$i/findomain.txt;
 chaos -d $i -silent | httpx --silent >> ~/Projects/$i/chaos.txt;
-python3 ~/github-search/github-subdomains.py -t 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 -d '$1' >> ~/Projects/$i/githubsubs.txt;
+python3 ~/github-search/github-subdomains.py -t **GITHUB_TOKEN_HERE** -d '$1' >> ~/Projects/$i/githubsubs.txt;
 amass enum -d $i >> ~/Projects/$i/amasssubs.txt;
 
 cat ~/Projects/$i/subfinder.txt ~/Projects/$i/assetfinder.txt ~/Projects/$i/findomain.txt ~/Projects/$i/chaos.txt ~/Projects/$i/githubsubs.txt ~/Projects/$i/amasssubs.txt | sort -u >> ~/Projects/$i/totalsubs.txt;
