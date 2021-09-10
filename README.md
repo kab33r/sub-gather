@@ -6,8 +6,8 @@ Subdomain enumeration script from different tools amass , subfinder , chaos , gi
 
 -Enter domain name: domain1.tld domain2.tld domain3.tld
 
-{subgather.png}
-
+![Subgather](subgather.png)
+![Subgathernotify](subgather-notify.png)
 # Features
 - Use of multiple subdomain gathering tool.
 - Creates a new domain directory and saves the result.
