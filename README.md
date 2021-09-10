@@ -6,7 +6,7 @@ Subdomain enumeration script from different tools amass , subfinder , chaos , gi
 
 -Enter domain name: domain1.tld domain2.tld domain3.tld
 
-
+{subgather.png}
 
 # Features
 - Use of multiple subdomain gathering tool.
